@@ -18,6 +18,6 @@ Retrieve all pets | GET | `/pets `| `index`
 Display form to create a new pet | GET | `/pets/new` | `new`
 Create a new pet | POST | `/pets` | `create`
 Display specific pet | GET | `/pets/<id>` | `show`
-Display form to update a specific pet | GET | `/pets/<id>/edit` | `new`
+Display form to update a specific pet | GET | `/pets/<id>/edit` | `edit`
 Update a specific pet | PUT *or* PATCH | `/pets/<id>` | `update`
 Delete a specific pet | DELETE | `/pets/<id>` | `destroy`
